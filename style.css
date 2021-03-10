@@ -17,7 +17,7 @@ body {
   background-size: cover;
   border: 1px solid rgba(255, 255, 255, 0);
   width: 100%;
-  min-height: 75vh;
+  min-height: 70vh;
   background-image: url(./images/desktop/image-hero.jpg);
 }
 
@@ -26,14 +26,14 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   position: absolute;
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 .hero-container .hero-card {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin: 10vh 0;
+  margin: 8vh 0;
   margin-bottom: 10vh;
   padding: 0 50px;
   min-height: auto;
@@ -55,7 +55,7 @@ body {
   color: white;
   font-size: 64px;
   margin: 5vh auto;
-  margin-bottom: 3.5vh;
+  margin-bottom: 4vh;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   line-height: 100% !important;
@@ -84,7 +84,7 @@ nav li, nav a {
 .about-me {
   width: 100%;
   height: auto;
-  margin: 20vh auto;
+  margin: 10vh auto;
 }
 
 .about-me img {
@@ -157,6 +157,7 @@ nav li, nav a {
   min-height: 100vh;
   padding: 0;
   margin: 10vh auto;
+  margin-top: 0;
 }
 
 .creation-container h1 {
