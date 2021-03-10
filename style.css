@@ -30,7 +30,9 @@ body {
 }
 
 .hero-container .hero-card {
-  width: 50%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   margin: 10vh 0;
   margin-bottom: 10vh;
   padding: 20px 50px;
