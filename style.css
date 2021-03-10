@@ -33,7 +33,7 @@ body {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin: 8vh 0;
+  margin: 9vh 0;
   margin-bottom: 10vh;
   padding: 0 50px;
   min-height: auto;
@@ -84,7 +84,7 @@ nav li, nav a {
 .about-me {
   width: 100%;
   height: auto;
-  margin: 10vh auto;
+  margin: 15vh auto;
 }
 
 .about-me img {
