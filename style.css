@@ -17,7 +17,7 @@ body {
   background-size: cover;
   border: 1px solid rgba(255, 255, 255, 0);
   width: 100%;
-  min-height: 60vh;
+  min-height: 75vh;
   background-image: url(./images/desktop/image-hero.jpg);
 }
 
@@ -26,14 +26,15 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   position: absolute;
-  min-height: 60vh;
+  min-height: 75vh;
 }
 
 .hero-container .hero-card {
   width: 50%;
   margin: 10vh 0;
-  padding: 25px 50px;
-  min-height: 25vh;
+  margin-bottom: 10vh;
+  padding: 20px 50px;
+  min-height: auto;
   border: 1px solid white;
   position: relative;
   z-index: 2;
