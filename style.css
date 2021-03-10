@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.hero-container {
+  background-size: cover;
+  border: 1px solid rgba(255, 255, 255, 0);
+  width: 100%;
+  min-height: 90vh;
+  background-image: url(./images/desktop/image-hero.jpg);
+}
+
+.hero-container::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: absolute;
+  min-height: 90vh;
+}
+
+.hero-container .hero-card {
+  width: 50%;
+  margin: 10vh 0;
+  padding: 25px 50px;
+  min-height: 25vh;
+  border: 1px solid white;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-container .hero-card h1 {
+  color: white;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 100% !important;
+  font-weight: 300 !important;
+}
+
+nav {
+  height: 10vh;
+  width: 75%;
+  margin: 5vh auto;
+}
+
+nav li, nav a {
+  font-weight: 700;
+}
+
+.brand-logo {
+  font-family: "Alata", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-me {
+  width: 100%;
+  height: auto;
+  margin: 20vh auto;
+}
+
+.about-me img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 55vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.about-me .col {
+  min-height: 55vh !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-me .txt-card {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: white;
+  position: relative;
+  -webkit-transform: translateX(-150px);
+          transform: translateX(-150px);
+}
+
+.about-me .txt-card p {
+  font-weight: 700;
+  color: #8b8a8a;
+  font-size: 16px !important;
+}
+
+.about-me .txt-card h1 {
+  margin: 20px auto;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-me #about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.creation-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 10vh auto;
+}
+
+.creation-container h1 {
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.creation-container a {
+  padding: 05px 30px;
+  border: 1px solid #8c8c8c;
+  font-family: "Alata", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.creation-container .title .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 15vh;
+}
+
+.card-container .col {
+  padding: 10px;
+}
+
+.card-container .c-card {
+  padding: 0 !important;
+  width: 100%;
+  height: 55vh;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden !important;
+}
+
+.card-container .c-card img {
+  width: 100%;
+  height: 55vh;
+  position: relative;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-container .c-card .img {
+  width: 100%;
+  height: auto;
+  overflow: hidden !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-container .c-card h4 {
+  color: white;
+  width: 100%;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 0 10%;
+  position: relative;
+  margin-top: -100px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+  opacity: .7;
+  font-weight: 400;
+}
+
+footer i {
+  font-size: 30px;
+  margin: 5px;
+}
+
+footer .row {
+  width: 75%;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+footer h2 {
+  font-family: "Alata", sans-serif;
+  width: 100%;
+  text-align: left;
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+footer .col {
+  padding: 1em !important;
+  height: 20vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer a {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 718px) {
+  nav {
+    width: 100%;
+  }
+  .about-me .col, .about-me img {
+    min-height: auto !important;
+    height: auto !important;
+  }
+  .about-me .txt-card {
+    padding: 20px 0 !important;
+  }
+  .creation-container {
+    margin: 0 !important;
+  }
+  .hero-container::before, .hero-container {
+    min-height: 75vh !important;
+  }
+  .about-me {
+    margin: 0vh auto !important;
+    margin-top: 5vh !important;
+  }
+  .container {
+    width: 90%;
+  }
+  .hero-container {
+    background-image: url("./images/mobile/image-hero.jpg");
+  }
+  .hero-container .hero-card {
+    width: 100%;
+    padding: 20px !important;
+  }
+  .hero-container .hero-card h1 {
+    font-size: 36px;
+  }
+  .about-me .txt-card {
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
+  .about-me .txt-card h1 {
+    font-size: 24px;
+  }
+  .card-container .c-card {
+    height: 25vh;
+  }
+  .card-container .c-card img {
+    width: 100%;
+    height: 25vh;
+    -o-object-position: center bottom;
+       object-position: center bottom;
+  }
+  .sidenav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black !important;
+    color: white !important;
+  }
+  .sidenav .brand-logo {
+    font-size: 30px;
+    margin: 5vh 0;
+    color: white;
+    font-weight: 700;
+    padding-left: 20px !important;
+    font-family: "Alata", sans-serif;
+  }
+  .sidenav li {
+    margin: 10px 0;
+    padding-left: 20px !important;
+  }
+  .sidenav li > a {
+    color: white !important;
+    font-size: 30px !important;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  footer {
+    margin-top: 5vh;
+    height: auto !important;
+    padding: 1em;
+  }
+  footer h2 {
+    text-align: center;
+  }
+  footer .col {
+    height: auto !important;
+  }
+  footer .row {
+    width: 100%;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  footer .icons i {
+    margin: 10px;
+  }
+  footer ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer ul a {
+    margin: 20px auto;
+    font-size: 24px;
+  }
+}
