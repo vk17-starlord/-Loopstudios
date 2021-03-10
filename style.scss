@@ -35,14 +35,19 @@ overflow-x: hidden;
 width: max-content;
     margin:10vh 0 ;
     margin-bottom:10vh;
-    padding: 20px 50px;
+    padding:0 50px;
     min-height:auto;
 border:1px solid white;
 position: relative;
 z-index: 2;
 h1{
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
     color: white;
     font-size: 64px;
+    margin: 5vh auto ;
+    margin-bottom: 3.5vh;
     text-transform:uppercase;
     font-family: $body;
     line-height: 100% !important;
@@ -203,6 +208,7 @@ min-height: 15vh;
 
 
 footer{
+    margin-top: 20vh;
     width: 100%;
 .icons{
     display: flex;
@@ -211,14 +217,14 @@ footer{
     width: 100%;
 }
 h3{
-    font-size: 20px;
+    font-size: 16px;
     font-family: $alta;
     opacity: .7;
     font-weight: 400;
 }
     i{
-        font-size: 30px;
-        margin: 5px;
+        font-size: 24px;
+        margin: 5px 10px;
     }
     background-color: black;
 

@@ -35,7 +35,7 @@ body {
   width: max-content;
   margin: 10vh 0;
   margin-bottom: 10vh;
-  padding: 20px 50px;
+  padding: 0 50px;
   min-height: auto;
   border: 1px solid white;
   position: relative;
@@ -43,8 +43,19 @@ body {
 }
 
 .hero-container .hero-card h1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   font-size: 64px;
+  margin: 5vh auto;
+  margin-bottom: 3.5vh;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   line-height: 100% !important;
@@ -218,6 +229,7 @@ nav li, nav a {
 }
 
 footer {
+  margin-top: 20vh;
   width: 100%;
   background-color: black;
   color: white;
@@ -237,15 +249,15 @@ footer .icons {
 }
 
 footer h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Alata", sans-serif;
   opacity: .7;
   font-weight: 400;
 }
 
 footer i {
-  font-size: 30px;
-  margin: 5px;
+  font-size: 24px;
+  margin: 5px 10px;
 }
 
 footer .row {
